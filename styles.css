@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: bisque;
+}
+.a{
+    padding: 30px;
+    border-radius: 30px;
+    margin-left: 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    width: 300px;
+    background-color:white;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:#13d373;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: black;
+}
+p{
+    text-align: center;
+    font-style: italic;
+}
+button {
+    transition-duration: 0.7s;
+  }
+  
+button:hover {
+    background-color: #000000; /* Green */
+    color: white;
+  }
+  
